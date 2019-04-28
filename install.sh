@@ -5,7 +5,7 @@
 yes | pamac install code docker steam nodejs php yarn composer ruby zsh htop playerctl
 
 # AUR
-yes | pamac build polybar spotify wps-office oh-my-zsh-git micro ulauncher google-chrome
+yes | pamac build polybar spotify wps-office oh-my-zsh-git micro ulauncher google-chrome discord
 
 #===========#
 #  DAEMONS  # 
