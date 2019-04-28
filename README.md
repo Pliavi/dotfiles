@@ -28,3 +28,12 @@
 [sigmag]: https://github.com/Catgrills/Sigma-G
 [modEden]: firefox/modified-eden
 [eden]: https://github.com/Catgrills/Eden
+
+# Requirements
+- mpd
+  - Don't forget to set it as a daemon
+- polybar
+  - https://github.com/adi1090x/polybar-themes (Tema 4)
+  - Don't forget to install the fonts
+- uLauncher (have some good extensions)
+- 
