@@ -2,10 +2,10 @@
 # INSTALLATIONS  #
 #================#
 # Offical repo
-yes | pamac install code docker steam nodejs php yarn composer ruby zsh htop playerctl
+sudo pamac install --no-confirm docker nodejs php yarn composer zsh mariadb
 
 # AUR
-yes | pamac build polybar spotify wps-office oh-my-zsh-git micro ulauncher google-chrome discord
+sudo pamac build --no-confirm spotify wps-office oh-my-zsh-git micro discord visual-studio-code-bin zsh-theme-powerlevel10k-git
 
 #===========#
 #  DAEMONS  # 
@@ -17,20 +17,24 @@ sudo systemctl restart docker
 #===========#
 #  CONFIGS  #
 #===========#
+# ZSH
+# NEWPATH=""
+# if hash composer 2>/dev/null; then
+#   NEWPATH="\$(composer global config home)/\$(composer global config bin-dir):"
+# fi
+# if hash yarn 2>/dev/null/; then
+#   NEWPATH="\$(yarn global bin):"
+# fi
+# echo "export PATH=\"$NEWPATH\$PATH\"" >> ~/.zshrc
+
+# After install p10k by AUR it has to link to custom themes
+sudo ln -s /usr/share/zsh-theme-powerlevel10k $ZSH_CUSTOM/themes/powerlevel10k
+
+
 # Docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
 sudo chmod g+rwx "$HOME/.docker" -R
 
-# VSCode - Install extensions
-PL_extensions=()
-PL_extensions+=("PKief.material-icon-theme")
-PL_extensions+=("Equinusocio.vsc-material-theme")
-PL_extensions+=("Zignd.html-css-class-completion")
-PL_extensions+=("robinbentley.sass-indented")
-PL_extensions+=("karunamurti.haml")
-PL_extensions+=("PeterJausovec.vscode-docker")
-for PL_ext in ${PL_extensions[*]}; do
-    code --install-extension $PL_ext
-done
+
