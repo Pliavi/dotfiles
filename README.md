@@ -1,11 +1,35 @@
-# My .dotfiles and Setup
+# My Dotfiles and Setup
 
 ## Setup
-
-- Operation System: Manjaro
-- Environment: Cinnamon
+- Operating System: Manjaro
+- Environment: KDE
+- Terminal: Kitty
 - Shell: [ZSH][zsh] + [OhMyZSH][ohmyzsh]
-- Browser: Brave
+- Terminal Editor: Micro
+- Browser: Google Chrome
+
+# Interface Tools
+ - Tiling Layout: Gtile or Xtile
+ - Screenshot: Deepin Screenshot
+ - Eye Safety: Redshift
+ - Respawn Apps: Daemon
+
+# Some tools
+ - Powered Text Editor: Visual Studio Code
+ - Screen Gifs: Deepin Screen Recorder
+ - Screen Recorder and Streamming: OBS Studio
+ - Video Editor: Kdenlive (the others lags a lot, even with my 1060)
+ - Localhost Tunneling: Ngrok
+ - Api Use/Test: Insomnia
+
+# Fonts
+ - Code: Jetbrains mono
+ - Code: Cascadia Code
+ - Emoji: Noto Fonts Emoji
+
+# Webapps (Chrome apps)
+ - Tasks: Trello (transitioning to Habitica)
+
 
 [i3gaps]: https://github.com/Airblader/i3
 [polybar]: https://github.com/jaagr/polybar
