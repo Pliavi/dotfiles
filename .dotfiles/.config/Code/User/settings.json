@@ -1,0 +1,120 @@
+{
+  // Theme
+  "window.titleBarStyle": "custom",
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "Community Material Theme High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'Hermit', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+
+  // Editor
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+
+  "editor.inlineSuggest.enabled": true,
+  "emmet.triggerExpansionOnTab": true,
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.excludeGitIgnore": true,
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // Formatter
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+
+  // Dart and Flutter
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.openDevTools": "flutter",
+  "dart.showInspectorNotificationsForWidgetErrors": true, // Check what this do, I forget, it was false
+  "flutterStylizer": {
+    "groupAndSortGetterMethods": true,
+    "memberOrdering": [
+      "public-constructor",
+      "named-constructors",
+      "public-static-variables",
+      "public-instance-variables",
+      "public-override-variables",
+      "private-static-variables",
+      "private-instance-variables",
+      "public-override-methods",
+      "public-other-methods",
+      "private-other-methods",
+      "build-method"
+    ],
+    "sortOtherMethods": true
+  },
+
+  // CodeSnap
+  "codesnap.backgroundColor": "#ffffff00",
+  "codesnap.shutterAction": "copy",
+  "codesnap.transparentBackground": true,
+  "codesnap.containerPadding": "2em",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.35) 0px 8px 12px",
+
+  // Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true
+  },
+
+  // VSCode Discord Rich PResence
+  "vscord.app.name": "Visual Studio Code",
+  "vscord.status.buttons.button1.enabled": true,
+  "vscord.status.buttons.button1.active.label": "Clica e vem ver o código!",
+  "vscord.status.buttons.button1.inactive.label": "Clica e me diz pra onde vai xD",
+  "vscord.enabled": true,
+  "vscord.status.image.small.idle.text": "zZz"
+}

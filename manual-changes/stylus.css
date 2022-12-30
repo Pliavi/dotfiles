@@ -1,0 +1,6 @@
+/* https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/ */
+
+/* Font ligatures for all code tags */
+code {
+  font-family: "Hermit";
+}

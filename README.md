@@ -1,33 +1,32 @@
 # My Dotfiles and Setup
 
 ## Setup
-- **Operating** System: Manjaro
+
+- **Operating System**: Manjaro
 - **Environment**: KDE
-- **Global Theme**: Layan
+- **Global Theme**: Whitesur
 - **Cursor**: Bibata
-- **Alternative Widgets**: 
-    - Better Inline Clock
-    - Ditto Menu
-    - Fokus
+- **Alternative Widgets**:
+  - Menu 11
 - **Terminal**: Konsole
-- **Shell**: ZSH + Prezto + PowerLevel10k
+- **Shell**: ZSH + PowerLevel10k
 - **Terminal Editor**: Micro
-- **Browser**: Chromium
+- **Browser**: Firefox
 
 # My tools
-  - **Text Editor**: Visual Studio Code
-  - **Screen Recorder and Streamming**: OBS Studio 
-    - **obs-studio-git** with **cef-minimal-3770** to make browser source work
-  - **Video Editor**: Kdenlive
-  - **Localhost Tunneling**: Ngrok
-  - **Api Client**: Insomnia
-  - **Node Package Manager**: Yarn
-  
+
+- **Text Editor**: Visual Studio Code
+- **Screen Recorder and Streamming**: OBS Studio
+  - **obs-studio-git** with **cef-minimal-3770** to make browser source work
+- **Video Editor**: Kdenlive
+- **Node Package Manager**: Yarn
 
 # Fonts
- - **Code**: Jetbrains Mono
- - **Terminal**: Cascadia Code
- - **Emoji**: Noto Fonts Emoji
+
+- **Code**: Hermit
+- **Terminal**: Cascadia Code
+- **Emoji**: Noto Fonts Emoji
 
 # Webapps (Chrome apps)
- - **Tasks**: Todoist
+
+- **Tasks**: Todoist

@@ -1,0 +1,40 @@
+# For environment
+zsh
+micro
+ttf-jetrbrains-mono
+ttf-cascadia-code
+otf-hermit
+nerd-fonts-hermit
+ttf-meslo-nerd-font-powerlevel10k
+powerline-fonts
+zsh-theme-powerlevel10k
+firefox
+
+# For desktop front environment 
+kvantum
+bibata-cursor-theme
+whitesur-kde-theme
+reversal-icon-theme
+
+# For development
+asdf-vm
+flutter
+yarn
+visual-studio-code
+android-studio
+android-tools
+
+# For entertainment
+mpv
+spotify-adblock
+telegram-desktop
+
+# For design
+gimp
+
+# For gaming
+discord
+osu-lazer
+steam
+lutris
+parsec
